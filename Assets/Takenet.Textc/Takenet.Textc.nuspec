@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Takenet.Textc</id>
+    <version>$version$</version>
+    <title>Textc</title>
+    <authors>takenet</authors>
+    <owners>takenet,andrebires</owners>
+    <projectUrl>http://github.com/takenet/textc-csharp</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/takenet/textc-csharp/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Text command parsing library</description>
+    <copyright>Copyright © 2015 Curupira S/A</copyright>
+    <tags>text command natural-language</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Takenet.Textc.dll" target="lib\net451\Takenet.Textc.dll" />
+    <file src="bin\Release\Takenet.Textc.XML" target="lib\net451\Takenet.Textc.XML" />
+  </files>  
+</package>
